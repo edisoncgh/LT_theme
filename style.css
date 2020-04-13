@@ -6,12 +6,26 @@ Author: edisoncgh
 Author URI:https://www.edisoncgh.com/introduction.html
 Version: 1.0
 Time: 2020.3.4
-Tags:Simplicity,flat,responsive.
+Tags:Simplicity,flat,responsive
 */
  html {
     line-height:1.15;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
+}
+/*修正夜间模式下图片样式*/
+@media (prefers-color-scheme: dark)
+{
+	img{
+		filter: invert(1) hue-rotate(90deg);
+	}	
+}
+/*夜间模式*/
+@media (prefers-color-scheme: dark)
+{
+	html{
+		filter: invert(1) hue-rotate(270deg);
+	}	
 }
 body {
     margin: 0;
@@ -862,7 +876,7 @@ img {
 .blogmenu li a {
 	text-decoration: none;
 	position: relative;
-	color: #313131;
+	color: #000000;
 	font-size: 20px;
 	font-weight: 700;
 	font-family: sans-serif;
@@ -876,7 +890,7 @@ img {
 	content: '';
 	width: 40px;
 	position: absolute;
-	border-bottom: 4px solid #313131;
+	border-bottom: 4px solid #000000;
 	bottom: 0;
 	right: 150px;
 	transition: 0.7s all;
