@@ -13,9 +13,12 @@ Tags:Simplicity,flat,responsive
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
 }
-/*修正夜间模式下图片样式*/
+/*修正夜间模式下不该变色部分的样式*/
 @media (prefers-color-scheme: dark)
 {
+	.czs-heart{
+		filter: invert(1) hue-rotate(90deg);
+	}
 	img{
 		filter: invert(1) hue-rotate(90deg);
 	}	
