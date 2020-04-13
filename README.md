@@ -1,6 +1,7 @@
 # Theme-LT:一款简洁轻量化的WordPress博客主题
 ### features:
 + 响应式设计
++ 自适应本地主题切换深色与浅色模式，保护你的双眼
 + 集成了高自由度的主题自定义面板
 + 置顶文章单独显示
 + 首页俏皮的GitHub Corner彰显码农的高贵身份
@@ -13,7 +14,7 @@
 + 文末附加了可自定义的版权声明
 + 页脚预留了可自定义的备案号展示
 + 页脚根据位置、季节、温度等因素智能推荐诗句
-#### credits:
-+ 基于主题之家King主题重构，已开源以尊重原作者版权
-+ canvas背景参考掘金社区“sunshine小小倩”创作的小册
+### credits:
++ 基于主题之家 [King](https://www.zhutihome.net/6542.html "King") 主题重构，已开源以尊重原作者版权
++ canvas背景参考掘金社区 [sunshine小小倩](https://juejin.im/user/584d7a3e2f301e00572fb7fc "sunshine小小倩") 创作的小册
 + 主题开源供学习交流，坚决不用于商业活动
