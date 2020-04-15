@@ -8,7 +8,7 @@ Version: 1.0
 Time: 2020.3.4
 Tags:Simplicity,flat,responsive
 */
- html {
+html {
     line-height:1.15;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
@@ -50,18 +50,24 @@ figure {
 hr {
     box-sizing:content-box;
     height:0;
-    overflow:visible
+    overflow:visible;
+    height:1px;
+    border:none;
+    border-top:1px dashed black;
 }
 pre {
     font-family:monospace, monospace;
     font-size:1em
 }
 a {
+	color: rgba(0, 137, 210);
+	text-decoration: none;
     background-color:transparent;
     -webkit-text-decoration-skip:objects
 }
 a:active, a:hover {
-    outline-width:0
+    outline-width:0;
+    font-weight: bold;
 }
 abbr[title] {
     border-bottom:none;
@@ -1324,4 +1330,21 @@ input#submit{color: #ffffff;}
 }
 .entry-content img:hover{
 	-webkit-transform: rotate(360deg);
+}
+.Guanyu {
+	padding: 0 5% 0 5%;
+	margin: 20px;
+	border-radius: 5px;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgba(252,252,252,0.9)), to(rgba(255,255,255,0.9)), color-stop(3%, rgba(247,247,247,0.9)), color-stop(12%, rgba(242,242,242,0.9)), color-stop(90%, rgba(249,249,249,0.9)));
+	background-image: -webkit-linear-gradient(top, rgba(252,252,252,0.9), rgba(247,247,247,0.9) 3%, rgba(242,242,242,0.9) 12%, rgba(249,249,249,0.9) 90%, rgba(255,255,255,0.9));
+	background-image: -moz-linear-gradient(top, rgba(252,252,252,0.9), rgba(247,247,247,0.9) 3%, rgba(242,242,242,0.9) 12%, rgba(249,249,249,0.9) 90%, rgba(255,255,255,0.9));
+	background-image: -o-linear-gradient(top, rgba(252,252,252,0.9), rgba(247,247,247,0.9) 3%, rgba(242,242,242,0.9) 12%, rgba(249,249,249,0.9) 90%, rgba(255,255,255,0.9));
+	background-image: -ms-linear-gradient(top, rgba(252,252,252,0.9), rgba(247,247,247,0.9) 3%, rgba(242,242,242,0.9) 12%, rgba(249,249,249,0.9) 90%, rgba(255,255,255,0.9));
+	background-image: linear-gradient(to bottom, rgba(252,252,252,0.9), rgba(247,247,247,0.9) 3%, rgba(242,242,242,0.9) 12%, rgba(249,249,249,0.9) 90%, rgba(255,255,255,0.9));
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.75); 
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.75);
+	box-shadow: 0 1px 5px rgba(0,0,0,0.75);
+}
+.Guanyu h1{
+	letter-spacing: 10px;
 }
