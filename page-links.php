@@ -1,4 +1,8 @@
-<?php get_header(); ?>	
+<?php 
+/*
+Template Name: 友情链接
+*/
+get_header(); ?>	
 	<div id="primary" class="site-content">
 	    <?php while ( have_posts() ) : the_post(); ?>
 	    	<div class="primary-site">
@@ -34,4 +38,4 @@
         	</div>    
 		<?php endwhile; ?> 
 	</div>
-<?php get_footer(); ?> 
+<?php get_footer(); ?>
