@@ -1,5 +1,5 @@
 <footer class="footer reveal">
-    <p> © <?php the_time('Y') ?> <?php bloginfo('name'); ?> · <a href="http://www.beian.miit.gov.cn/" target="_blank"><?php echo get_option('LT_beian') ;?></a> · Theme LT · Made with <i class="czs-heart" style="color: rgb(228, 16, 0);font-size: 12px;"></i> by   <a href="https://www.edisoncgh.com/introduction.html" title="Theme author" target="_blank">edisoncgh</a></p>
+    <p> © <?php the_time('Y') ?> <?php bloginfo('name'); ?> · <a href="http://www.beian.miit.gov.cn/" target="_blank"><?php echo get_option('LT_beian') ;?></a> · Theme LT · Made with <i class="czs-heart" style="color: rgb(228, 16, 0);font-size: 12px;"></i> by   <a href="https://www.edisoncgh.com/introduction" title="Theme author" target="_blank">edisoncgh</a></p>
     <div class="poets">
         <span id="jinrishici-sentence">太白饮酒中......</span>
 		<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script><br />
