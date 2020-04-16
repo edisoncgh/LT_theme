@@ -67,7 +67,7 @@ a {
 }
 a:active, a:hover {
     outline-width:0;
-    font-weight: bold;
+    color:grey;
 }
 abbr[title] {
     border-bottom:none;
